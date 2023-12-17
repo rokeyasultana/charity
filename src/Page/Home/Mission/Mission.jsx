@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { MdOutlineCleanHands } from "react-icons/md";
 const Mission = () => {
   return (
     <div
-      style={{ background: '#F8FCFF', height: '500px'  }}
+      style={{ background: '#F8FCFF', height: '600px'  }}
       className='container-fluid '
     >
       <p style={{ color: '#33e29c', paddingTop: '80px', fontWeight: 'bold' }}>
@@ -16,6 +16,7 @@ const Mission = () => {
         <div className='col-md-3'>
           <div className='card' style={{marginRight:'50px'}}>
             <div className='card-body'>
+            <MdOutlineCleanHands color='#33e29c' size='50px' />
               <h3>Clean Water</h3>
               <p>The sea Freight service has grown has grown conside rably in recent years. We spend timetting to know your processes to.</p>
             </div>
@@ -24,6 +25,7 @@ const Mission = () => {
         <div className='col-md-3'>
           <div className='card' style={{ background: '#09cc7f', color: 'white',marginRight:'50px' }}>
             <div className='card-body'>
+            <MdOutlineCleanHands color='white' size='50px'/>
               <h3>Clean Water</h3>
               <p>The sea Freight service has grown has grown conside rably in recent years. We spend timetting to know your processes to.</p>
             </div>
@@ -32,6 +34,7 @@ const Mission = () => {
         <div className='col-md-3'>
           <div className='card' style={{marginRight:'50px'}}>
             <div className='card-body'>
+            <MdOutlineCleanHands color='#33e29c' size='50px'/>
               <h3>Clean Water</h3>
               <p>The sea Freight service has grown has grown conside rably in recent years. We spend timetting to know your processes to.</p>
             </div>
